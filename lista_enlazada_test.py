@@ -1,4 +1,6 @@
+from lista_enlazada import ListaEnlazada
 
+lista = ListaEnlazada()
 
 def test_agregar_al_final():
     raise NotImplementedError()
