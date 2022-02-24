@@ -22,11 +22,9 @@ class ListaEnlazada:
   raiz = None
   num_nodos: 0
 
-  
   def agregar_al_final(self, valor):
     raise NotImplementedError()
 
-  
   def agregar_despues_de(self, indice, valor):
     raise NotImplementedError()
     
