@@ -1,6 +1,6 @@
 """
  * El nodo es un objeto con el siguiente esquema
- * nodo: { valor: null, siguiente: null }
+ * nodo: { valor: None, siguiente: None }
 """
 
 class Nodo:
