@@ -1,13 +1,11 @@
 """
  * El nodo es un objeto con el siguiente esquema
  * nodo: { valor: null, siguiente: null }
- *
- * Antes de cada función veras las instrucciones de lo
- * que debería de hacer
- *
- * Cuando hagas cambios en ester archivo vas a ver
- * las pruebas que has completado
 """
+
+class Nodo:
+  valor = None
+  siguiente = None
 
 """
  * Agregar al final de nuestra lista un nuevo
@@ -22,24 +20,24 @@
 
 class ListaEnlazada:
   raiz = None
-  numNodos: 0
+  num_nodos: 0
 
   
-  def agregar_al_final(valor):
+  def agregar_al_final(self, valor):
     raise NotImplementedError()
 
   
-  def agregar_despues_de(indice, valor):
+  def agregar_despues_de(self, indice, valor):
     raise NotImplementedError()
     
-  def borrar_indice(indice):
+  def borrar_indice(self, indice):
     raise NotImplementedError()
     
-  def contiene(valor):
+  def contiene(self, valor):
     raise NotImplementedError()
 
-  def valor_de(indice):
+  def valor_de(self, indice):
     raise NotImplementedError()
     
-  def imprimir():
+  def imprimir(self):
     raise NotImplementedError()
